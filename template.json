@@ -1,0 +1,28 @@
+iotmsg_header :
+{ "guid": "%s",
+  "destination": "%s",
+  "state": "%s"}
+
+iotmsg_eventTime =
+  "eventTime": "%sZ",
+
+iotmsg_payload =
+  "payload": {"format": "%s",
+
+iotmsg_data =
+	 "data": { "temperature": %.1f  }
+	 }
+}
+
+{"data":[{"iotmsg_header":{"guid": "%s",
+  "destination": "%s",
+  "state": "%s"},
+
+
+"iotmsg_eventTime":"eventTime": "%sZ"
+
+
+
+}]}
+
+{"maps":[{"id":"xyzp","iscategorical":"/u/$home/app/home"},
